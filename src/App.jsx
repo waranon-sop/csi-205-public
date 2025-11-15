@@ -33,7 +33,7 @@ function App() {
     return <Login setToken={setToken} setRole={setRole} />;
   } else {
     return (
-      <BrowserRouter basename="/csi205/">
+      <BrowserRouter basename="/csi-205-public/">
         <Routes>
           <Route
             element={<AppLayout products={products} carts={carts} setToken={setToken} />}
